@@ -1,13 +1,13 @@
 # react-barcode
 
-A React component to generate Barcode.
+React component to generate Barcode.
 
 [![NPM](https://img.shields.io/npm/v/@createnextapp/react-barcode.svg)](https://www.npmjs.com/package/@createnextapp/react-barcode) [![downloads](https://img.shields.io/npm/dm/@createnextapp/react-barcode.svg?style=flat-square)](https://www.npmjs.com/package/@createnextapp/react-barcode) ![npm bundle size](https://img.shields.io/bundlephobia/min/@createnextapp/react-barcode) [![Build Status](https://api.travis-ci.com/Bunlong/@createnextapp/react-barcode.svg?branch=master)](https://travis-ci.com/Bunlong/@createnextapp/react-barcode) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## 🎁 Features
 
-* Support multiple barcode formats
 * Compatible with both JavaScript and TypeScript
+* Support multiple barcode formats
 * Generate as SVG, Canvas and Image
 
 ## 🔧 Install
@@ -85,6 +85,33 @@ function App() {
 
 export default App;
 ```
+
+## Parameters
+
+<table>
+  <thead>
+    <tr>
+      <th>Prop</th>
+      <th>Type</th>
+      <th>Require</th>
+      <th>Description</th>
+    </tr>
+  <thead>
+  <tbody>
+    <tr>
+      <td>value</td>
+      <td>string</td>
+      <td>✔️</td>
+      <td>Text to generate.</td>
+    </tr>
+    <tr>
+      <td>options</td>
+      <td>options</td>
+      <td>❌</td>
+      <td>Barcode options.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Options
 
@@ -230,7 +257,7 @@ export default App;
       <td>boolean?</td>
       <td><code>false</code></td>
       <td>❌</td>
-      <td>only for EAN8/EAN13</td>
+      <td>only for <code>EAN8</code> / <code>EAN13</code></td>
     </tr>
   </tbody>
 </table>
