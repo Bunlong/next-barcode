@@ -131,21 +131,21 @@ export default App;
       <td>string?</td>
       <td><code>auto</code></td>
       <td>❌</td>
-      <td>select which barcode type to use. Please check the wikipage of the different barcode types for more information.</td>
+      <td>Select which barcode type to use. Please check the wikipage of the different barcode types for more information.</td>
     </tr>
     <tr>
       <td>width</td>
       <td>number?</td>
       <td><code>2</code></td>
       <td>❌</td>
-      <td>the width option is the width of a single bar.</td>
+      <td>The width option is the width of a single bar.</td>
     </tr>
     <tr>
       <td>height</td>
       <td>number?</td>
       <td><code>100</code></td>
       <td>❌</td>
-      <td>the height of the barcode.</td>
+      <td>The height of the barcode.</td>
     </tr>
     <tr>
       <td>displayValue</td>
@@ -159,70 +159,70 @@ export default App;
       <td>string?</td>
       <td><code>undefined</code></td>
       <td>❌</td>
-      <td>overide the text that is diplayed</td>
+      <td>Overide the text that is diplayed</td>
     </tr>
     <tr>
       <td>fontOptions</td>
       <td>string?</td>
       <td><code>""</code></td>
       <td>❌</td>
-      <td>with fontOptions you can add bold or italic text to the barcode.</td>
+      <td>With fontOptions you can add bold or italic text to the barcode.</td>
     </tr>
     <tr>
       <td>font</td>
       <td>string?</td>
       <td><code>"monospace"</code></td>
       <td>❌</td>
-      <td>define the font used for the text in the generated barcode. This can be any default font or a font defined by a @font-face rule.</td>
+      <td>Define the font used for the text in the generated barcode. This can be any default font or a font defined by a @font-face rule.</td>
     </tr>
     <tr>
       <td>textAlign</td>
       <td>string?</td>
       <td><code>"center"</code></td>
       <td>❌</td>
-      <td>set the horizontal alignment of the text. Can be <code>left</code> / <code>center</code> / <code>right</code>.</td>
+      <td>Set the horizontal alignment of the text. Can be <code>left</code> / <code>center</code> / <code>right</code>.</td>
     </tr>
     <tr>
       <td>textPosition</td>
       <td>string?</td>
       <td><code>"bottom"</code></td>
       <td>❌</td>
-      <td>set the vertical position of the text. Can be <code>bottom</code> / <code>top</code>.</td>
+      <td>Set the vertical position of the text. Can be <code>bottom</code> / <code>top</code>.</td>
     </tr>
     <tr>
       <td>textMargin</td>
       <td>number?</td>
       <td><code>2</code></td>
       <td>❌</td>
-      <td>set the vertical position of the text. Can be <code>bottom</code> / <code>top</code>.</td>
+      <td>Set the vertical position of the text. Can be <code>bottom</code> / <code>top</code>.</td>
     </tr>
     <tr>
       <td>fontSize</td>
       <td>number?</td>
       <td><code>20</code></td>
       <td>❌</td>
-      <td>set the size of the text.</td>
+      <td>Set the size of the text.</td>
     </tr>
     <tr>
       <td>background</td>
       <td>string?</td>
       <td><code>"#ffffff"</code></td>
       <td>❌</td>
-      <td>set the background of the barcode.</td>
+      <td>Set the background of the barcode.</td>
     </tr>
     <tr>
       <td>lineColor</td>
       <td>string?</td>
       <td><code>"#000000"</code></td>
       <td>❌</td>
-      <td>set the color of the bars and the text.</td>
+      <td>Set the color of the bars and the text.</td>
     </tr>
     <tr>
       <td>margin</td>
       <td>number?</td>
       <td><code>10</code></td>
       <td>❌</td>
-      <td>set the space margin around the barcode. If nothing else is set, all side will inherit the margins property but can be replaced if you want to set them separably.</td>
+      <td>Set the space margin around the barcode. If nothing else is set, all side will inherit the margins property but can be replaced if you want to set them separably.</td>
     </tr>
     <tr>
       <td>marginTop</td>
@@ -257,7 +257,7 @@ export default App;
       <td>boolean?</td>
       <td><code>false</code></td>
       <td>❌</td>
-      <td>only for <code>EAN8</code> / <code>EAN13</code></td>
+      <td>Only for <code>EAN8</code> / <code>EAN13</code></td>
     </tr>
   </tbody>
 </table>
