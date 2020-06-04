@@ -18,9 +18,9 @@ react-barcode is available on yarn as well. It can be installed with the followi
 yarn add react-hook-qrcode
 ```
 
-## 💡 SVG
+## 💡 Usage
 
-### Usage
+### SVG
 
 ```js
 import React from 'react';
@@ -35,6 +35,46 @@ function App() {
   });
   
   return <svg ref={inputRef} />;
+};
+
+export default App;
+```
+
+### Canvas
+
+```js
+import React from 'react';
+import { useBarcode } from '@createnextapp/react-barcode';
+
+function App() {
+  const [inputRef] = useBarcode({
+    value: '1234',
+    options: {
+      text: 'Hi'
+    },
+  });
+  
+  return <canvas ref={inputRef} />;
+};
+
+export default App;
+```
+
+### Image
+
+```js
+import React from 'react';
+import { useBarcode } from '@createnextapp/react-barcode';
+
+function App() {
+  const [inputRef] = useBarcode({
+    value: '1234',
+    options: {
+      text: 'Hi'
+    },
+  });
+  
+  return <img ref={inputRef} />;
 };
 
 export default App;
@@ -57,6 +97,132 @@ export default App;
       <td>format</td>
       <td>string?</td>
       <td><code>auto</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>width</td>
+      <td>number?</td>
+      <td><code>2</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>height</td>
+      <td>number?</td>
+      <td><code>100</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>displayValue</td>
+      <td>boolean?</td>
+      <td><code>true</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>string?</td>
+      <td><code>undefined</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>fontOptions</td>
+      <td>string?</td>
+      <td><code>""</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>font</td>
+      <td>string?</td>
+      <td><code>"monospace"</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>textAlign</td>
+      <td>string?</td>
+      <td><code>"center"</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>textPosition</td>
+      <td>string?</td>
+      <td><code>"bottom"</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>textMargin</td>
+      <td>number?</td>
+      <td><code>2</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>fontSize</td>
+      <td>number?</td>
+      <td><code>20</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>background</td>
+      <td>string?</td>
+      <td><code>"#ffffff"</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>lineColor</td>
+      <td>string?</td>
+      <td><code>"#000000"</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>margin</td>
+      <td>number?</td>
+      <td><code>10</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>marginTop</td>
+      <td>number?</td>
+      <td><code>undefined</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>marginBottom</td>
+      <td>number?</td>
+      <td><code>undefined</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>marginLeft</td>
+      <td>number?</td>
+      <td><code>undefined</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>marginRight</td>
+      <td>number?</td>
+      <td><code>undefined</code></td>
+      <td>❌</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>flat</td>
+      <td>boolean?</td>
+      <td><code>false</code></td>
       <td>❌</td>
       <td></td>
     </tr>
