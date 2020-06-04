@@ -21,7 +21,7 @@ npm install --save @createnextapp/react-barcode
 react-barcode is available on yarn as well. It can be installed with the following command:
 
 ```
-yarn add react-hook-qrcode
+yarn add @createnextapp/react-barcode
 ```
 
 ## 💡 Usage
