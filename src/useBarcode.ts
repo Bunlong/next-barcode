@@ -29,7 +29,7 @@ interface Options {
   // valid?: Function;
 }
 
-export function useBarcode({ ...props }: Props): [any] {
+export function useBarcode({ ...props }: Props): any {
   const inputRef = useRef();
   const { value, options } = props;
 
@@ -43,5 +43,5 @@ export function useBarcode({ ...props }: Props): [any] {
     [value, options],
   );
 
-  return [inputRef];
+  return { inputRef };
 }
