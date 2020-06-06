@@ -63,11 +63,11 @@ import React from 'react';
 import { useBarcode } from '@createnextapp/react-barcode';
 
 function App() {
-  const [inputRef] = useBarcode({
-    value: '1234',
+  const { inputRef } = useBarcode({
+    value: 'createnextapp',
     options: {
-      text: 'Hi'
-    },
+      background: '#ccffff',
+    }
   });
   
   return <svg ref={inputRef} />;
@@ -75,6 +75,7 @@ function App() {
 
 export default App;
 ```
+<img src="https://github.com/createnextapp/react-barcode/blob/master/README/svg.png" alt="react-barcode svg" />
 
 ### Canvas
 
@@ -83,11 +84,12 @@ import React from 'react';
 import { useBarcode } from '@createnextapp/react-barcode';
 
 function App() {
-  const [inputRef] = useBarcode({
-    value: '1234',
+  const { inputRef } = useBarcode({
+    value: 'createnextapp',
     options: {
-      text: 'Hi'
-    },
+      displayValue: false,
+      background: '#ffc0cb',
+    }
   });
   
   return <canvas ref={inputRef} />;
@@ -96,6 +98,8 @@ function App() {
 export default App;
 ```
 
+<img src="https://github.com/createnextapp/react-barcode/blob/master/README/canvas.png" alt="react-barcode canvas" />
+
 ### Image
 
 ```js
@@ -103,11 +107,11 @@ import React from 'react';
 import { useBarcode } from '@createnextapp/react-barcode';
 
 function App() {
-  const [inputRef] = useBarcode({
-    value: '1234',
+  const { inputRef } = useBarcode({
+    value: 'createnextapp',
     options: {
-      text: 'Hi'
-    },
+      background: '#ffff00',
+    }
   });
   
   return <img ref={inputRef} />;
@@ -115,6 +119,8 @@ function App() {
 
 export default App;
 ```
+
+<img src="https://github.com/createnextapp/react-barcode/blob/master/README/img.png" alt="react-barcode image" />
 
 ## Parameters
 
