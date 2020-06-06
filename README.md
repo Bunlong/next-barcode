@@ -131,7 +131,7 @@ export default App;
       <td>string?</td>
       <td><code>auto</code></td>
       <td>❌</td>
-      <td>Select which barcode type to use. Please check the [wikipage](wiki) of the different barcode types for more information.</td>
+      <td>Select which barcode type to use. Please check the <a href="https://github.com/createnextapp/react-barcode/wiki">wikipage</a> of the different barcode types for more information.</td>
     </tr>
     <tr>
       <td>width</td>
