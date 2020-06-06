@@ -14,9 +14,9 @@ React component to generate Barcode.
 
 * Compatible with both JavaScript and TypeScript
 * Generate as SVG, Canvas and Image
-* Support multiple barcodes format
+* Support multiple barcodes type
 
-### Barcodes Format
+### Barcodes Type
 
 * [CODE128](https://github.com/createnextapp/react-barcode/wiki/CODE128)
   * CODE128 (automatic mode switching)

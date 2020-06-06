@@ -1,6 +1,6 @@
 {
   "name": "@createnextapp/react-barcode",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "A React component to generate Barcode.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
@@ -12,7 +12,16 @@
     "url": "https://github.com/CreateNextApp/react-barcode.git/issues"
   },
   "keywords": [
-    "react"
+    "react",
+    "reactjs",
+    "barcode",
+    "react-barcode",
+    "hooks",
+    "react-hooks",
+    "components",
+    "react-components",
+    "typescript",
+    "javascript"
   ],
   "homepage": "",
   "main": "dist/react-barcode.js",
