@@ -1,8 +1,9 @@
 <p align="center">
   <img src="https://github.com/createnextapp/react-barcode/blob/master/README/logo.png" alt="react-barcode" />
-  <p>
-    <a href="https://www.npmjs.com/package/@createnextapp/react-barcode"><img src="https://img.shields.io/npm/v/@createnextapp/react-barcode.svg" /></a>
-  </p>
+  <br/><br/>
+  <a href="https://www.npmjs.com/package/@createnextapp/react-barcode"><img src="https://img.shields.io/npm/v/@createnextapp/react-barcode.svg" /></a>
+  <a href="https://www.npmjs.com/package/@createnextapp/react-barcode"><img src="https://img.shields.io/npm/dm/@createnextapp/react-barcode.svg?style=flat-square" /></a>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" /></a>
 </p>
 
 # react-barcode
