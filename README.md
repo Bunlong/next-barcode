@@ -10,6 +10,8 @@
 
 React component to generate Barcode.
 
+[Live demo](https://codesandbox.io/s/react-barcode-p30pk)
+
 ## 🎁 Features
 
 * Compatible with both JavaScript and TypeScript
