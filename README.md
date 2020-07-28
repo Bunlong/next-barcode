@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/createnextapp/react-barcode/blob/master/README/logo.png" alt="react-barcode" />
+  <img src="https://github.com/Bunlong/react-barcodes/blob/master/README/logo.png" alt="react-barcodes" />
   <br/><br/>
-  <a href="https://www.npmjs.com/package/@createnextapp/react-barcode"><img src="https://img.shields.io/npm/v/@createnextapp/react-barcode.svg" /></a>
-  <a href="https://www.npmjs.com/package/@createnextapp/react-barcode"><img src="https://img.shields.io/npm/dm/@createnextapp/react-barcode.svg?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/react-barcodes"><img src="https://img.shields.io/npm/v/react-barcodes.svg" /></a>
+  <a href="https://www.npmjs.com/package/react-barcodes"><img src="https://img.shields.io/npm/dm/react-barcodes.svg?style=flat-square" /></a>
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" /></a>
 </p>
 
@@ -20,40 +20,40 @@ React component to generate Barcode.
 
 ### Barcodes Type
 
-* [CODE128](https://github.com/createnextapp/react-barcode/wiki/CODE128)
+* [CODE128](https://github.com/Bunlong/react-barcode/wiki/CODE128)
   * CODE128 (automatic mode switching)
   * CODE128 A/B/C (force mode)
-* [EAN](https://github.com/createnextapp/react-barcode/wiki/EAN)
+* [EAN](https://github.com/Bunlong/react-barcode/wiki/EAN)
   * EAN-13
   * EAN-8
   * EAN-5
   * EAN-2
   * UPC (A)
   * UPC (E)
-* [CODE39](https://github.com/createnextapp/react-barcode/wiki/CODE39)
-* [ITF](https://github.com/createnextapp/react-barcode/wiki/ITF-14)
+* [CODE39](https://github.com/Bunlong/react-barcode/wiki/CODE39)
+* [ITF](https://github.com/Bunlong/react-barcode/wiki/ITF-14)
   * ITF
   * ITF-14
-* [MSI](https://github.com/createnextapp/react-barcode/wiki/MSI)
+* [MSI](https://github.com/Bunlong/react-barcode/wiki/MSI)
   * MSI10
   * MSI11
   * MSI1010
   * MSI1110
-* [Pharmacode](https://github.com/createnextapp/react-barcode/wiki/pharmacode)
-* [Codabar](https://github.com/createnextapp/react-barcode/wiki/codabar)
+* [Pharmacode](https://github.com/Bunlong/react-barcode/wiki/pharmacode)
+* [Codabar](https://github.com/Bunlong/react-barcode/wiki/codabar)
 
 ## 🔧 Install
 
 react-barcode is available on npm. It can be installed with the following command:
 
 ```
-npm install --save @createnextapp/react-barcode
+npm install react-barcodes --save
 ```
 
 react-barcode is available on yarn as well. It can be installed with the following command:
 
 ```
-yarn add @createnextapp/react-barcode
+yarn add react-barcodes
 ```
 
 ## 💡 Usage
@@ -62,11 +62,11 @@ yarn add @createnextapp/react-barcode
 
 ```js
 import React from 'react';
-import { useBarcode } from '@createnextapp/react-barcode';
+import { useBarcode } from 'react-barcodes';
 
 function App() {
   const { inputRef } = useBarcode({
-    value: 'createnextapp',
+    value: 'react-barcodes',
     options: {
       background: '#ccffff',
     }
@@ -77,17 +77,17 @@ function App() {
 
 export default App;
 ```
-<img src="https://github.com/createnextapp/react-barcode/blob/master/README/svg.png" alt="react-barcode svg" />
+<img src="https://github.com/Bunlong/react-barcode/blob/master/README/svg.png" alt="react-barcode svg" />
 
 ### Canvas
 
 ```js
 import React from 'react';
-import { useBarcode } from '@createnextapp/react-barcode';
+import { useBarcode } from 'react-barcodes';
 
 function App() {
   const { inputRef } = useBarcode({
-    value: 'createnextapp',
+    value: 'react-barcodes',
     options: {
       displayValue: false,
       background: '#ffc0cb',
@@ -100,17 +100,17 @@ function App() {
 export default App;
 ```
 
-<img src="https://github.com/createnextapp/react-barcode/blob/master/README/canvas.png" alt="react-barcode canvas" />
+<img src="https://github.com/Bunlong/react-barcode/blob/master/README/canvas.png" alt="react-barcode canvas" />
 
 ### Image
 
 ```js
 import React from 'react';
-import { useBarcode } from '@createnextapp/react-barcode';
+import { useBarcode } from 'react-barcodes';
 
 function App() {
   const { inputRef } = useBarcode({
-    value: 'createnextapp',
+    value: 'react-barcodes',
     options: {
       background: '#ffff00',
     }
@@ -122,7 +122,7 @@ function App() {
 export default App;
 ```
 
-<img src="https://github.com/createnextapp/react-barcode/blob/master/README/img.png" alt="react-barcode image" />
+<img src="https://github.com/Bunlong/react-barcode/blob/master/README/img.png" alt="react-barcode image" />
 
 ## Parameters
 
@@ -169,7 +169,7 @@ export default App;
       <td>string?</td>
       <td><code>auto</code></td>
       <td>❌</td>
-      <td>Select which barcode type to use. Please check the <a href="https://github.com/createnextapp/react-barcode/wiki">wikipage</a> of the different barcode types for more information.</td>
+      <td>Select which barcode type to use. Please check the <a href="https://github.com/Bunlong/react-barcode/wiki">wikipage</a> of the different barcode types for more information.</td>
     </tr>
     <tr>
       <td>width</td>
