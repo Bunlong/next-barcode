@@ -1,19 +1,21 @@
 {
   "name": "react-barcodes",
-  "version": "1.0.1",
-  "description": "A React component to generate Barcode.",
+  "version": "1.0.2",
+  "description": "React hooks to generate Barcode.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CreateNextApp/react-barcode.git"
+    "url": "git+https://github.com/Bunlong/react-barcode.git"
   },
   "bugs": {
-    "url": "https://github.com/CreateNextApp/react-barcode.git/issues"
+    "url": "https://github.com/Bunlong/react-barcode.git/issues"
   },
   "keywords": [
     "react",
     "reactjs",
+    "barcodes",
+    "react-barcodes",
     "barcode",
     "react-barcode",
     "hooks",

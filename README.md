@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://github.com/Bunlong/react-barcodes/blob/master/README/logo.png" alt="react-barcodes" />
+  <img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/logo.png" alt="react-barcodes" />
   <br/><br/>
   <a href="https://www.npmjs.com/package/react-barcodes"><img src="https://img.shields.io/npm/v/react-barcodes.svg" /></a>
   <a href="https://www.npmjs.com/package/react-barcodes"><img src="https://img.shields.io/npm/dm/react-barcodes.svg?style=flat-square" /></a>
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" /></a>
 </p>
 
-# react-barcode
+# react-barcodes
 
-React component to generate Barcode.
+React hooks for generating Barcodes.
 
-[Live demo](https://codesandbox.io/s/react-barcode-p30pk)
+[Live demo](https://p30pk.csb.app)
 
 ## 🎁 Features
 
@@ -44,13 +44,13 @@ React component to generate Barcode.
 
 ## 🔧 Install
 
-react-barcode is available on npm. It can be installed with the following command:
+react-barcodes is available on npm. It can be installed with the following command:
 
 ```
 npm install react-barcodes --save
 ```
 
-react-barcode is available on yarn as well. It can be installed with the following command:
+react-barcodes is available on yarn as well. It can be installed with the following command:
 
 ```
 yarn add react-barcodes
@@ -77,7 +77,7 @@ function App() {
 
 export default App;
 ```
-<img src="https://github.com/Bunlong/react-barcode/blob/master/README/svg.png" alt="react-barcode svg" />
+<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/svg.png" alt="react-barcode svg" />
 
 ### Canvas
 
@@ -100,7 +100,7 @@ function App() {
 export default App;
 ```
 
-<img src="https://github.com/Bunlong/react-barcode/blob/master/README/canvas.png" alt="react-barcode canvas" />
+<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/canvas.png" alt="react-barcode canvas" />
 
 ### Image
 
@@ -122,7 +122,7 @@ function App() {
 export default App;
 ```
 
-<img src="https://github.com/Bunlong/react-barcode/blob/master/README/img.png" alt="react-barcode image" />
+<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/img.png" alt="react-barcode image" />
 
 ## Parameters
 
@@ -302,11 +302,11 @@ export default App;
 
 ## 💖 Wrap Up
 
-If you think any of the `react-barcode` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
+If you think any of the `react-barcodes` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
 
 ## 🌟 Contribution
 
-We'd love to have your helping hand on contributions to `react-barcode` by forking and sending a pull request!
+We'd love to have your helping hand on contributions to `react-barcodes` by forking and sending a pull request!
 
 Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
 
@@ -320,3 +320,5 @@ How to contribute:
 ## ⚖️ License
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/logo.png -->
