@@ -1,6 +1,6 @@
 {
   "name": "react-barcodes",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "React hooks to generate Barcode.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
