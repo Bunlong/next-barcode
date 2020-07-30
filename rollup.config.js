@@ -9,7 +9,7 @@ import pkg from './package.json';
 // import builtins from 'builtin-modules'
 
 export default {
-  input: 'src/react-barcode.ts',
+  input: 'src/react-barcodes.ts',
   output: [
     {
       file: pkg.main,

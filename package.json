@@ -1,15 +1,15 @@
 {
   "name": "react-barcodes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hooks to generate Barcode.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bunlong/react-barcode.git"
+    "url": "git+https://github.com/Bunlong/react-barcodes.git"
   },
   "bugs": {
-    "url": "https://github.com/Bunlong/react-barcode.git/issues"
+    "url": "https://github.com/Bunlong/react-barcodes.git/issues"
   },
   "keywords": [
     "react",
@@ -26,11 +26,11 @@
     "javascript"
   ],
   "homepage": "",
-  "main": "dist/react-barcode.js",
-  "module": "dist/react-barcode.es.js",
-  "jsnext:main": "dist/react-barcode.es.js",
-  "types": "dist/react-barcode.d.ts",
-  "@comment unpkg": "dist/react-barcode.umd.js",
+  "main": "dist/react-barcodes.js",
+  "module": "dist/react-barcodes.es.js",
+  "jsnext:main": "dist/react-barcodes.es.js",
+  "types": "dist/react-barcodes.d.ts",
+  "@comment unpkg": "dist/react-barcodes.umd.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -80,7 +80,7 @@
   },
   "bundlesize": [
     {
-      "path": "./dist/react-barcode.es.js",
+      "path": "./dist/react-barcodes.es.js",
       "maxSize": "50 kB"
     }
   ],

@@ -20,27 +20,27 @@ React hooks for generating Barcodes.
 
 ### Barcodes Type
 
-* [CODE128](https://github.com/Bunlong/react-barcode/wiki/CODE128)
+* [CODE128](https://github.com/Bunlong/react-barcodes/wiki/CODE128)
   * CODE128 (automatic mode switching)
   * CODE128 A/B/C (force mode)
-* [EAN](https://github.com/Bunlong/react-barcode/wiki/EAN)
+* [EAN](https://github.com/Bunlong/react-barcodes/wiki/EAN)
   * EAN-13
   * EAN-8
   * EAN-5
   * EAN-2
   * UPC (A)
   * UPC (E)
-* [CODE39](https://github.com/Bunlong/react-barcode/wiki/CODE39)
-* [ITF](https://github.com/Bunlong/react-barcode/wiki/ITF-14)
+* [CODE39](https://github.com/Bunlong/react-barcodes/wiki/CODE39)
+* [ITF](https://github.com/Bunlong/react-barcodes/wiki/ITF-14)
   * ITF
   * ITF-14
-* [MSI](https://github.com/Bunlong/react-barcode/wiki/MSI)
+* [MSI](https://github.com/Bunlong/react-barcodes/wiki/MSI)
   * MSI10
   * MSI11
   * MSI1010
   * MSI1110
-* [Pharmacode](https://github.com/Bunlong/react-barcode/wiki/pharmacode)
-* [Codabar](https://github.com/Bunlong/react-barcode/wiki/codabar)
+* [Pharmacode](https://github.com/Bunlong/react-barcodes/wiki/pharmacode)
+* [Codabar](https://github.com/Bunlong/react-barcodes/wiki/codabar)
 
 ## 🔧 Install
 
@@ -77,7 +77,7 @@ function App() {
 
 export default App;
 ```
-<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/svg.png" alt="react-barcode svg" />
+<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/svg.png" alt="react-barcodes svg" />
 
 ### Canvas
 
@@ -100,7 +100,7 @@ function App() {
 export default App;
 ```
 
-<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/canvas.png" alt="react-barcode canvas" />
+<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/canvas.png" alt="react-barcodes canvas" />
 
 ### Image
 
@@ -122,7 +122,7 @@ function App() {
 export default App;
 ```
 
-<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/img.png" alt="react-barcode image" />
+<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/img.png" alt="react-barcodes image" />
 
 ## Parameters
 
@@ -169,7 +169,7 @@ export default App;
       <td>string?</td>
       <td><code>auto</code></td>
       <td>❌</td>
-      <td>Select which barcode type to use. Please check the <a href="https://github.com/Bunlong/react-barcode/wiki">wikipage</a> of the different barcode types for more information.</td>
+      <td>Select which barcode type to use. Please check the <a href="https://github.com/Bunlong/react-barcodes/wiki">wikipage</a> of the different barcode types for more information.</td>
     </tr>
     <tr>
       <td>width</td>
