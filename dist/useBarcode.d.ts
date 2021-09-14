@@ -22,6 +22,7 @@ interface Options {
     marginLeft?: number;
     marginRight?: number;
     flat?: boolean;
+    valid?: (valid: boolean) => void;
 }
 export declare function useBarcode({ ...props }: Props): any;
 export {};
