@@ -26,7 +26,7 @@ interface Options {
   marginLeft?: number;
   marginRight?: number;
   flat?: boolean;
-  // valid?: Function;
+  valid?: Function;
 }
 
 export function useBarcode({ ...props }: Props): any {
