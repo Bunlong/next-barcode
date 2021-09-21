@@ -24,5 +24,5 @@ interface Options {
     flat?: boolean;
     valid?: (valid: boolean) => void;
 }
-export declare function useBarcode({ ...props }: Props): any;
+export declare function useBarcode<T extends SVGElement | HTMLCanvasElement | HTMLImageElement>({ ...props }: Props): any;
 export {};
