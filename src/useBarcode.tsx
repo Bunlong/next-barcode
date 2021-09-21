@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import React from 'react';
 import JsBarcode from 'jsbarcode';
 
 interface Props {
@@ -29,15 +29,16 @@ interface Options {
   valid?: (valid: boolean) => void;
 }
 
-export function useBarcode({ ...props }: Props): any {
-  const inputRef = useRef();
+export function useBarcode<
+  T extends SVGElement | HTMLCanvasElement | HTMLImageElement,
+>({ ...props }: Props): any {
+  const inputRef = React.useRef<T>(null);
   const { value, options } = props;
 
-  useEffect(
+  React.useEffect(
     function () {
       if (inputRef) {
-        const ref = inputRef as any;
-        JsBarcode(ref.current, value, options);
+        JsBarcode(inputRef.current, value, options);
       }
     },
     [value, options],
