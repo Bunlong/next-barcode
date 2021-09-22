@@ -6,7 +6,7 @@ import { useBarcode } from 'next-barcode';
 
 const Home: NextPage = () => {
   const { inputRef } = useBarcode({
-    value: 'react-barcodes',
+    value: 'next-barcode',
     options: {
       background: '#ccffff',
     }
