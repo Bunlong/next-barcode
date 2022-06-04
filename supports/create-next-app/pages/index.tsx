@@ -6,10 +6,10 @@ import { useBarcode } from 'next-barcode';
 
 const Home: NextPage = () => {
   const { inputRef } = useBarcode({
-    value: 'react-barcodes',
-    options: {
-      background: '#ccffff',
-    }
+    value: 'next-barcode',
+    // options: {
+    //   background: '#ccffff',
+    // }
   })
 
   return <svg ref={inputRef} />
