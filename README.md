@@ -300,7 +300,7 @@ export default App;
   </tbody>
 </table>
 
-## 💖 Wrap Up
+## ❗ Issues
 
 If you think any of the `next-barcode` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
 
@@ -316,6 +316,22 @@ How to contribute:
 - Discuss ideas in issues
 - Spread the word
 - Reach out with any feedback
+
+## 🏆 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Bunlong">
+        <img src="https://avatars0.githubusercontent.com/u/1308397?s=400&u=945dc6b97571e2b98b659d34b1c81ae2514046bf&v=4" width="100" alt="Bunlong" />
+        <br />
+        <sub>
+          <b>Bunlong</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## ⚖️ License
 
