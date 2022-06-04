@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/logo.png" alt="react-barcodes" />
+  <img src="https://raw.githubusercontent.com/bunlong/next-barcode/master/README/logo.png" alt="next-barcode" />
   <br/><br/>
-  <a href="https://www.npmjs.com/package/react-barcodes"><img src="https://img.shields.io/npm/v/react-barcodes.svg" /></a>
-  <a href="https://www.npmjs.com/package/react-barcodes"><img src="https://img.shields.io/npm/dm/react-barcodes.svg?style=flat-square" /></a>
+  <!-- <a href="https://www.npmjs.com/package/next-barcode"><img src="https://img.shields.io/npm/v/next-barcode.svg" /></a> -->
+  <a href="https://www.npmjs.com/package/next-barcode"><img src="https://img.shields.io/npm/dm/next-barcode.svg?style=flat-square" /></a>
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" /></a>
 </p>
 
-# react-barcodes
+# next-barcode
 
-React hooks for generating Barcodes.
+React hooks for generating Barcode for your next React apps.
 
 [Live demo](https://p30pk.csb.app)
 
@@ -20,40 +20,40 @@ React hooks for generating Barcodes.
 
 ### Barcodes Type
 
-* [CODE128](https://github.com/Bunlong/react-barcodes/wiki/CODE128)
+* [CODE128](https://github.com/Bunlong/next-barcode/wiki/CODE128)
   * CODE128 (automatic mode switching)
   * CODE128 A/B/C (force mode)
-* [EAN](https://github.com/Bunlong/react-barcodes/wiki/EAN)
+* [EAN](https://github.com/Bunlong/next-barcode/wiki/EAN)
   * EAN-13
   * EAN-8
   * EAN-5
   * EAN-2
   * UPC (A)
   * UPC (E)
-* [CODE39](https://github.com/Bunlong/react-barcodes/wiki/CODE39)
-* [ITF](https://github.com/Bunlong/react-barcodes/wiki/ITF-14)
+* [CODE39](https://github.com/Bunlong/next-barcode/wiki/CODE39)
+* [ITF](https://github.com/Bunlong/next-barcode/wiki/ITF-14)
   * ITF
   * ITF-14
-* [MSI](https://github.com/Bunlong/react-barcodes/wiki/MSI)
+* [MSI](https://github.com/Bunlong/next-barcode/wiki/MSI)
   * MSI10
   * MSI11
   * MSI1010
   * MSI1110
-* [Pharmacode](https://github.com/Bunlong/react-barcodes/wiki/pharmacode)
-* [Codabar](https://github.com/Bunlong/react-barcodes/wiki/codabar)
+* [Pharmacode](https://github.com/Bunlong/next-barcode/wiki/pharmacode)
+* [Codabar](https://github.com/Bunlong/next-barcode/wiki/codabar)
 
 ## 🔧 Install
 
-react-barcodes is available on npm. It can be installed with the following command:
+next-barcode is available on npm. It can be installed with the following command:
 
 ```
-npm install react-barcodes --save
+npm install next-barcode --save
 ```
 
-react-barcodes is available on yarn as well. It can be installed with the following command:
+next-barcode is available on yarn as well. It can be installed with the following command:
 
 ```
-yarn add react-barcodes
+yarn add next-barcode
 ```
 
 ## 💡 Usage
@@ -62,11 +62,11 @@ yarn add react-barcodes
 
 ```js
 import React from 'react';
-import { useBarcode } from 'react-barcodes';
+import { useBarcode } from 'next-barcode';
 
 function App() {
   const { inputRef } = useBarcode({
-    value: 'react-barcodes',
+    value: 'next-barcode',
     options: {
       background: '#ccffff',
     }
@@ -77,17 +77,17 @@ function App() {
 
 export default App;
 ```
-<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/svg.png" alt="react-barcodes svg" />
+<img src="https://raw.githubusercontent.com/bunlong/next-barcode/master/README/svg.png" alt="next-barcode svg" />
 
 ### Canvas
 
 ```js
 import React from 'react';
-import { useBarcode } from 'react-barcodes';
+import { useBarcode } from 'next-barcode';
 
 function App() {
   const { inputRef } = useBarcode({
-    value: 'react-barcodes',
+    value: 'next-barcode',
     options: {
       displayValue: false,
       background: '#ffc0cb',
@@ -100,17 +100,17 @@ function App() {
 export default App;
 ```
 
-<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/canvas.png" alt="react-barcodes canvas" />
+<img src="https://raw.githubusercontent.com/bunlong/next-barcode/master/README/canvas.png" alt="next-barcode canvas" />
 
 ### Image
 
 ```js
 import React from 'react';
-import { useBarcode } from 'react-barcodes';
+import { useBarcode } from 'next-barcode';
 
 function App() {
   const { inputRef } = useBarcode({
-    value: 'react-barcodes',
+    value: 'next-barcode',
     options: {
       background: '#ffff00',
     }
@@ -122,7 +122,7 @@ function App() {
 export default App;
 ```
 
-<img src="https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/img.png" alt="react-barcodes image" />
+<img src="https://raw.githubusercontent.com/bunlong/next-barcode/master/README/img.png" alt="next-barcode image" />
 
 ## Parameters
 
@@ -169,7 +169,7 @@ export default App;
       <td>string?</td>
       <td><code>auto</code></td>
       <td>❌</td>
-      <td>Select which barcode type to use. Please check the <a href="https://github.com/Bunlong/react-barcodes/wiki">wikipage</a> of the different barcode types for more information.</td>
+      <td>Select which barcode type to use. Please check the <a href="https://github.com/Bunlong/next-barcode/wiki">wikipage</a> of the different barcode types for more information.</td>
     </tr>
     <tr>
       <td>width</td>
@@ -302,11 +302,11 @@ export default App;
 
 ## 💖 Wrap Up
 
-If you think any of the `react-barcodes` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
+If you think any of the `next-barcode` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
 
 ## 🌟 Contribution
 
-We'd love to have your helping hand on contributions to `react-barcodes` by forking and sending a pull request!
+We'd love to have your helping hand on contributions to `next-barcode` by forking and sending a pull request!
 
 Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
 
@@ -321,4 +321,4 @@ How to contribute:
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<!-- https://raw.githubusercontent.com/bunlong/react-barcodes/master/README/logo.png -->
+<!-- https://raw.githubusercontent.com/bunlong/next-barcode/master/README/logo.png -->
