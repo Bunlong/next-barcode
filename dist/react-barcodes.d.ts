@@ -1,1 +1,0 @@
-export { useBarcode } from './useBarcode';
