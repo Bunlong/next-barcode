@@ -1,6 +1,6 @@
 {
   "name": "next-barcode",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "React hooks for generating Barcode for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
@@ -90,9 +90,9 @@
     }
   ],
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0",
+    "react-scripts": ">=4.0.0"
   },
   "dependencies": {
     "jsbarcode": "^3.11.3"
