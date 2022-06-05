@@ -1,6 +1,6 @@
 {
   "name": "next-barcode",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "React hooks for generating Barcode for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
