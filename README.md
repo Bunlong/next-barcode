@@ -330,6 +330,24 @@ How to contribute:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/dennis-8">
+        <img src="https://avatars.githubusercontent.com/u/4423231?v=4" width="100" alt="Dennis N." />
+        <br />
+        <sub>
+          <b>Dennis N.</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Handers85">
+        <img src="https://avatars.githubusercontent.com/u/90617297?v=4" width="100" alt="Handers" />
+        <br />
+        <sub>
+          <b>Handers</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
