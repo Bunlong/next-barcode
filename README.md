@@ -300,6 +300,14 @@ export default App;
   </tbody>
 </table>
 
+## 📜 Changelog
+
+Latest version 1.5.0 (2023-07-14):
+
+  * Upgrade dependencies
+
+Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-barcode/blob/master/CHANGELOG.md).
+
 ## ❗ Issues
 
 If you think any of the `next-barcode` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
