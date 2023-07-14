@@ -1,14 +1,11 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bunlong/next-barcode/master/README/logo.png" alt="next-barcode" />
-  <br/><br/>
-  <!-- <a href="https://www.npmjs.com/package/next-barcode"><img src="https://img.shields.io/npm/v/next-barcode.svg" /></a> -->
-  <a href="https://www.npmjs.com/package/next-barcode"><img src="https://img.shields.io/npm/dm/next-barcode.svg?style=flat-square" /></a>
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" /></a>
-</p>
-
 # next-barcode
 
 React hooks for generating Barcode for your next React apps.
+
+[![downloads](https://img.shields.io/npm/dm/next-barcode.svg?label=monthly%20downloads)](https://www.npmjs.com/package/next-barcode) [![downloads](https://img.shields.io/npm/dt/next-barcode.svg?label=total%20downloads)](https://www.npmjs.com/package/next-barcode)
+
+[![NPM](https://img.shields.io/npm/v/next-barcode.svg)](https://www.npmjs.com/package/next-barcode) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-barcode) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 [Live demo](https://p30pk.csb.app)
 
